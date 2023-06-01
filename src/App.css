@@ -156,3 +156,36 @@ input[type='email'] {
 .submit-btn:hover {
   background-color: #0056b3;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .movie-name {
+    font-size: 20px;
+  }
+
+  input[type='text'],
+  input[type='email'] {
+    width: 100%;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .movie-name {
+    font-size: 18px;
+  }
+
+  input[type='text'],
+  input[type='email'] {
+    width: 100%;
+    padding: 6px;
+  }
+}
